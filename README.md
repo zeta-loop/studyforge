@@ -49,11 +49,22 @@ Give StudyForge a topic, a PDF, or lecture notes → get back a **complete inter
 
 ## Install
 
+### Option 1: Clone into your skills directory
 ```bash
-claude install gh:zeta-loop/studyforge
+# macOS / Linux
+git clone https://github.com/zeta-loop/studyforge.git ~/.claude/skills/studyforge
+
+# Windows
+git clone https://github.com/zeta-loop/studyforge.git %USERPROFILE%\.claude\skills\studyforge
 ```
 
-That's it. Now use `/studyforge` in any Claude Code session.
+### Option 2: Use as a Claude Code plugin
+```bash
+# Inside Claude Code, add as a plugin directory
+claude --plugin-dir /path/to/studyforge
+```
+
+Then use `/studyforge` in any Claude Code session.
 
 ---
 
