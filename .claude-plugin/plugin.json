@@ -1,0 +1,24 @@
+{
+  "name": "studyforge",
+  "version": "1.0.0",
+  "description": "Turn any study material into a beautiful, interactive HTML course — one prompt, zero dependencies. Claude Code skill.",
+  "author": {
+    "name": "zeta-loop",
+    "url": "https://github.com/zeta-loop"
+  },
+  "homepage": "https://github.com/zeta-loop/studyforge",
+  "repository": "https://github.com/zeta-loop/studyforge",
+  "license": "MIT",
+  "keywords": [
+    "education",
+    "interactive-course",
+    "study-tool",
+    "html-generator",
+    "quiz",
+    "exam-prep",
+    "learning",
+    "claude-code-skill",
+    "any-subject"
+  ],
+  "skills": "./skills/"
+}
