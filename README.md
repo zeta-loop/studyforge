@@ -4,9 +4,11 @@
 
 No frameworks. No build step. No server. Just one self-contained HTML file with quizzes, progress tracking, and a scored final exam.
 
-![Claude Code Skill](https://img.shields.io/badge/Claude_Code-Skill-blueviolet?style=for-the-badge)
-![Any Subject](https://img.shields.io/badge/Works_With-Any_Subject-gold?style=for-the-badge)
-![Zero Dependencies](https://img.shields.io/badge/Dependencies-Zero-green?style=for-the-badge)
+![40+ AI Agents](https://img.shields.io/badge/Works_With-40%2B_AI_Agents-blueviolet?style=for-the-badge)
+![Any Subject](https://img.shields.io/badge/Any_Subject-gold?style=for-the-badge)
+![Zero Dependencies](https://img.shields.io/badge/Zero_Dependencies-green?style=for-the-badge)
+
+> Compatible with **Claude Code** · **Cursor** · **Codex** · **GitHub Copilot** · **Gemini CLI** · **Cline** · **Amp** · and 30+ more via the [Vercel Skills](https://github.com/vercel-labs/skills) ecosystem
 
 ---
 
