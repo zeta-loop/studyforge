@@ -19,6 +19,7 @@ Give StudyForge a topic, a PDF, or lecture notes → get back a **complete inter
 /studyforge ./lecture-slides.pdf
 /studyforge "Contract Law — offer, acceptance, consideration"
 /studyforge "Linear Algebra midterm prep, focus on eigenvalues"
+/studyforge quick sakura-themed exam-level quiz on Organic Chemistry
 ```
 
 ### What You Get
@@ -96,10 +97,51 @@ Then use `/studyforge` in any Claude Code session.
 
 ---
 
+## Customize It
+
+StudyForge works out of the box with smart defaults — but everything is customizable inline. Just say what you want in natural language:
+
+### Course Length
+| Option | Sections | Time |
+|--------|----------|------|
+| `quick` | 4-5 | ~20 min |
+| `standard` (default) | 8-10 | ~45-60 min |
+| `deep dive` | 12-15 | ~1.5-2 hrs |
+
+### Quiz Difficulty
+- **`beginner`** — straightforward, definition-focused
+- **`intermediate`** (default) — requires real understanding
+- **`exam-level`** — trick questions, edge cases, gotchas
+
+### Color Themes
+- **`midnight gold`** (default) — dark navy + gold, warm and focused
+- **`ocean breeze`** — dark teal + cyan, cool and calm
+- **`sunset ember`** — charcoal + orange/red, bold and energetic
+- **`sakura`** — dark purple + pink, soft and modern
+
+### Fonts
+- **Nunito + Fira Code** (default) — rounded, friendly
+- **Inter + JetBrains Mono** — clean, professional
+- **Space Grotesk + Source Code Pro** — geometric, techy
+
+### Creative Themes
+Add "with a theme" to get a creative metaphor woven through the course (e.g., space mission for physics, detective story for logic, courtroom drama for law).
+
+### Mix and match:
+```
+/studyforge deep dive exam-level sakura-themed "Organic Chemistry reactions"
+/studyforge quick beginner "Spanish verb conjugation"
+/studyforge "Machine Learning basics" with ocean breeze theme
+```
+
+If you don't specify anything, you'll get a one-line confirmation with defaults and the option to tweak before generating.
+
+---
+
 ## How It Works
 
-1. **You provide** a topic, file, or description
-2. **StudyForge analyzes** the material and identifies core concepts + exam traps
+1. **You provide** a topic, file, or description (with optional preferences)
+2. **StudyForge confirms** your settings and offers to customize (or generates immediately if you specified everything)
 3. **Generates** a single `.html` file with full interactivity
 4. **Open in browser** → start learning immediately
 
